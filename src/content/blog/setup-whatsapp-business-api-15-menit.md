@@ -5,9 +5,6 @@ pubDate: 2025-01-10
 category: "Guide"
 author: "Tim AITOMATION.ID"
 ---
-
-# Setup WhatsApp Business API dalam 15 15 Menit dengan AITOMATION.ID
-
 WhatsApp Business API adalah kunci untuk mengotomasi komunikasi bisnis Anda. Dengan AITOMATION.ID, proses yang biasanya memakan waktu berhari-hari bisa diselesaikan dalam 15 menit. Berikut panduannya.
 
 ## Persiapan Sebelum Mulai

@@ -6,8 +6,6 @@ category: "Tutorial"
 author: "Tim AITOMATION.ID"
 ---
 
-# 5 Cara Mengotomasi Customer Service WhatsApp untuk UMKM
-
 WhatsApp telah menjadi tulang punggung komunikasi bisnis di Indonesia. Namun, mengelola chat manual setiap hari bisa menguras waktu dan tenaga. Artikel ini akan membahas 5 cara praktis untuk mengotomasi customer service WhatsApp Anda.
 
 ## 1. Auto Reply untuk Pertanyaan Umum
