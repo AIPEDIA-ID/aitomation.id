@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Server Error - AITOMATION.ID">
+  <Navigation />
+  
+  <div class="min-h-screen flex items-center justify-center px-4 py-16">
+    <div class="max-w-md mx-auto text-center">
+      <div class="mb-8">
+        <h1 class="text-9xl font-bold text-red-500 mb-4">500</h1>
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Server Error</h2>
+        <p class="text-gray-600 mb-8">
+          Terjadi kesalahan pada server kami. Tim teknis sedang menangani masalah ini. Silakan coba lagi dalam beberapa saat.
+        </p>
+      </div>
+      
+      <div class="space-y-4">
+        <button 
+          onclick="window.location.reload()" 
+          class="inline-flex items-center justify-center px-8 py-3 bg-accent-500 text-white font-semibold rounded-lg hover:bg-accent-600 transition-colors duration-200 mr-4"
+        >
+          Coba Lagi
+        </button>
+        
+        <a 
+          href="/" 
+          class="inline-flex items-center justify-center px-8 py-3 border border-accent-500 text-accent-500 font-semibold rounded-lg hover:bg-accent-50 transition-colors duration-200"
+        >
+          Kembali ke Beranda
+        </a>
+        
+        <div class="text-sm text-gray-500 mt-6">
+          Jika masalah berlanjut, hubungi kami di 
+          <a href="https://wa.me/6281234567890" class="text-accent-500 hover:text-accent-600 font-medium">
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <Footer />
+</Layout>
