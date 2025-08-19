@@ -47,21 +47,21 @@ const packages = [
 
 <section id="pricing" class="py-16 md:py-20 bg-gradient-to-b from-transparent to-white/50">
   <div class="container mx-auto px-4 md:px-8">
-    <div class="max-w-5xl mx-auto">
+    <div class="max-w-4xl mx-auto">
       <!-- Section Header -->
       <div class="text-center mb-12">
         <div class="inline-flex items-center gap-2 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-2 mb-6">
           <span class="text-sm font-medium text-yellow-700">🔥 PROMO TERBATAS</span>
         </div>
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Harga Spesial <span class="text-red-600">Berakhir 31 Januari!</span>
+          Harga Transparan <span class="text-red-600">Sekali Bayar!</span>
         </h2>
         <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-4">
           <span class="font-semibold text-accent-600">100% Self-Hosted</span> • Kontrol Penuh • Hemat Jutaan dari SaaS
         </p>
         <div class="bg-red-50 border border-red-200 rounded-lg p-3 max-w-md mx-auto">
           <p class="text-red-800 font-medium text-sm">
-            ⚠️ Harga naik 50% mulai 1 Februari 2025!
+            ⚠️ Harga naik 50% mulai 30 September 2025!
           </p>
         </div>
       </div>
@@ -69,7 +69,11 @@ const packages = [
       <!-- Main Packages Grid -->
       <div class="grid lg:grid-cols-3 gap-6 mb-12">
         {packages.map((pkg, index) => (
-          <div class={`relative bg-white/60 border rounded-lg p-6 transition-all hover:bg-white/80 hover:shadow-lg ${pkg.popular ? 'border-accent-500/50 ring-2 ring-accent-500/20' : 'border-white/20'}`}>
+          <div class={`relative bg-white/60 border rounded-lg p-6 transition-all hover:bg-white/80 hover:shadow-lg ${
+            pkg.popular 
+              ? 'border-accent-500/50 ring-4 ring-accent-500/30 border-2 p-4' 
+              : 'border-gray-200'
+          }`}>
             {pkg.popular && (
               <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
                 <span class="bg-accent-500 text-white px-3 py-1 rounded-full text-sm font-medium">
@@ -113,7 +117,7 @@ const packages = [
           <svg class="w-4 h-4 text-accent-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
           </svg>
-          <span class="text-sm font-medium text-gray-700">Garansi uang kembali jika sistem tidak jalan</span>
+          <span class="text-sm font-medium text-gray-700">Garansi sampai sistem jalan *ketentuan berlaku</span>
         </div>
       </div>
     </div>
