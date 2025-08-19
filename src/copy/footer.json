@@ -1,0 +1,56 @@
+{
+  "brand": {
+    "name": "AITOMATION.ID",
+    "description": "Sistem otomasi WhatsApp untuk bisnis Indonesia. Self-hosted, setup cepat, milik sendiri."
+  },
+  "contact": {
+    "whatsapp": "https://wa.me/6281234567890",
+    "email": "mailto:hello@aitomate.id"
+  },
+  "links": {
+    "products": {
+      "title": "Produk",
+      "items": [
+        {
+          "text": "Starter Kit",
+          "href": "#pricing"
+        },
+        {
+          "text": "Fast Start",
+          "href": "#pricing"
+        },
+        {
+          "text": "Enterprise",
+          "href": "#pricing"
+        }
+      ]
+    },
+    "support": {
+      "title": "Support",
+      "items": [
+        {
+          "text": "Blog",
+          "href": "/blog"
+        },
+        {
+          "text": "FAQ",
+          "href": "/faq"
+        },
+        {
+          "text": "Kontak",
+          "href": "https://wa.me/6281234567890"
+        }
+      ]
+    }
+  },
+  "legal": [
+    {
+      "text": "Privacy Policy",
+      "href": "#"
+    },
+    {
+      "text": "Terms of Service",
+      "href": "#"
+    }
+  ]
+}

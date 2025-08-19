@@ -1,0 +1,44 @@
+{
+  "heading": {
+    "main": "Fitur Lengkap untuk",
+    "highlight": "Otomasi WhatsApp Bisnis"
+  },
+  "description": "Sistem lengkap yang sudah digunakan 500+ bisnis Indonesia",
+  "features": [
+    {
+      "icon": "truck",
+      "title": "Cek Ongkir Otomatis",
+      "description": "Integrasi RajaOngkir untuk cek ongkos kirim real-time"
+    },
+    {
+      "icon": "spreadsheet",
+      "title": "Cek Stok & Harga",
+      "description": "Sinkronisasi data produk dari Google Sheets"
+    },
+    {
+      "icon": "receipt",
+      "title": "Invoice & QR Payment",
+      "description": "Generate invoice dan QR payment via Midtrans"
+    },
+    {
+      "icon": "message",
+      "title": "Auto-Reply Kategori",
+      "description": "Respon otomatis berdasarkan kategori pesan"
+    },
+    {
+      "icon": "api",
+      "title": "Integrasi API",
+      "description": "Koneksi dengan ekspedisi dan sistem internal"
+    },
+    {
+      "icon": "database",
+      "title": "Database Produk",
+      "description": "Kelola harga, stok, dan kategori produk"
+    }
+  ],
+  "cta": {
+    "heading": "Dapatkan Semua Fitur Ini Sekarang!",
+    "description": "Setup dalam 15 menit, langsung bisa digunakan",
+    "button": "Lihat Harga Spesial →"
+  }
+}

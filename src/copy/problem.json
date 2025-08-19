@@ -1,0 +1,44 @@
+{
+  "heading": {
+    "main": "Apakah Anda Masih",
+    "highlight": "Repot",
+    "suffix": "dengan Ini?"
+  },
+  "description": "95% bisnis Indonesia masih mengalami masalah ini setiap hari",
+  "problems": [
+    {
+      "title": "Manual Reply Berulang",
+      "description": "Buang 3-5 jam/hari untuk jawab pertanyaan sama"
+    },
+    {
+      "title": "Order Terlewat",
+      "description": "Kehilangan 30-50% prospek karena telat respon"
+    },
+    {
+      "title": "Biaya SaaS Bulanan",
+      "description": "Habis 5-15jt/tahun untuk langganan SaaS"
+    }
+  ],
+  "solution": {
+    "heading": {
+      "brand": "AITOMATION.ID",
+      "text": "Solusi Terbaik!"
+    },
+    "description": "Sistem otomasi WhatsApp yang 100% milik sendiri, setup cepat, dan hemat jutaan rupiah",
+    "benefits": [
+      {
+        "title": "Setup 15 Menit",
+        "description": "Langsung jalan tanpa ribet"
+      },
+      {
+        "title": "100% Milik Sendiri",
+        "description": "Data dan server di tangan Anda"
+      },
+      {
+        "title": "Hemat Jutaan",
+        "description": "Investasi sekali, pakai selamanya"
+      }
+    ],
+    "cta": "Lihat Harga Spesial Sekarang →"
+  }
+}

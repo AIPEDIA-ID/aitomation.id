@@ -1,36 +1,5 @@
 ---
-const features = [
-  {
-    icon: "truck",
-    title: "Cek Ongkir Otomatis",
-    description: "Integrasi RajaOngkir untuk cek ongkos kirim real-time"
-  },
-  {
-    icon: "spreadsheet",
-    title: "Cek Stok & Harga",
-    description: "Sinkronisasi data produk dari Google Sheets"
-  },
-  {
-    icon: "receipt",
-    title: "Invoice & QR Payment",
-    description: "Generate invoice dan QR payment via Midtrans"
-  },
-  {
-    icon: "message",
-    title: "Auto-Reply Kategori",
-    description: "Respon otomatis berdasarkan kategori pesan"
-  },
-  {
-    icon: "api",
-    title: "Integrasi API",
-    description: "Koneksi dengan ekspedisi dan sistem internal"
-  },
-  {
-    icon: "database",
-    title: "Database Produk",
-    description: "Kelola harga, stok, dan kategori produk"
-  }
-];
+import featuresData from '../copy/features.json';
 ---
 
 <section id="features" class="py-16 md:py-20">
@@ -39,17 +8,17 @@ const features = [
       <!-- Section Header -->
       <div class="text-center mb-12">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Fitur Lengkap untuk<br/>
-          <span class="text-accent-600">Otomasi WhatsApp Bisnis</span>
+          {featuresData.heading.main}<br/>
+          <span class="text-accent-600">{featuresData.heading.highlight}</span>
         </h2>
         <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-          Sistem lengkap yang sudah digunakan 500+ bisnis Indonesia
+          {featuresData.description}
         </p>
       </div>
 
       <!-- Features Grid -->
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-        {features.map((feature) => (
+        {featuresData.features.map((feature) => (
           <div class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg hover:border-accent-300 transition-all duration-300 group relative overflow-hidden">
             <!-- Background decoration -->
             <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-accent-500/5 to-accent-600/10 rounded-full transform translate-x-8 -translate-y-8"></div>
@@ -110,16 +79,16 @@ const features = [
           <div class="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-tl from-accent-600/10 to-transparent rounded-full transform translate-x-12 translate-y-12"></div>
           
           <h3 class="text-xl font-bold text-gray-900 mb-3 relative z-10">
-            Dapatkan Semua Fitur Ini Sekarang!
+            {featuresData.cta.heading}
           </h3>
           <p class="text-gray-600 mb-4 relative z-10">
-            Setup dalam 15 menit, langsung bisa digunakan
+            {featuresData.cta.description}
           </p>
           <button 
             onclick="scrollToSection('pricing')"
             class="bg-accent-500 hover:bg-accent-600 text-white px-6 py-3 rounded-lg border border-accent-600 font-semibold transition-colors relative z-10"
           >
-            Lihat Harga Spesial →
+            {featuresData.cta.button}
           </button>
         </div>
       </div>

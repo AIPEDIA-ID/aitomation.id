@@ -1,0 +1,26 @@
+{
+  "badge": "🚀 LANGKAH TERAKHIR",
+  "heading": "Siap Mengotomasi WhatsApp Bisnis Anda?",
+  "description": "Bergabung dengan 500+ bisnis Indonesia yang sudah hemat jutaan rupiah",
+  "stats": [
+    {
+      "number": "15 Menit",
+      "label": "Setup"
+    },
+    {
+      "number": "100%",
+      "label": "Milik Sendiri"
+    },
+    {
+      "number": "500+",
+      "label": "Bisnis Aktif"
+    }
+  ],
+  "button": "PESAN SEKARANG!",
+  "urgency": "⏰ PROMO BERAKHIR 30 SEPTEMBER! Harga naik 50% setelah tanggal tersebut.",
+  "contact": {
+    "text": "Butuh konsultasi? Hubungi kami:",
+    "whatsapp": "https://wa.me/6281234567890",
+    "email": "mailto:hello@aitomate.id"
+  }
+}

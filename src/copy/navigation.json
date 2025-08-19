@@ -1,0 +1,14 @@
+{
+  "brand": "AITOMATION.ID",
+  "links": [
+    {
+      "text": "Pricing",
+      "href": "#pricing"
+    },
+    {
+      "text": "FAQ",
+      "href": "/faq"
+    }
+  ],
+  "cta": "Mulai Sekarang"
+}

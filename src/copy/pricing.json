@@ -1,0 +1,55 @@
+{
+  "badge": "🔥 PROMO TERBATAS",
+  "heading": {
+    "main": "Harga Transparan",
+    "highlight": "Sekali Bayar!"
+  },
+  "description": "100% Self-Hosted • Kontrol Penuh • Hemat Jutaan dari SaaS",
+  "urgency": "⚠️ Harga naik 50% mulai 30 September 2025!",
+  "packages": [
+    {
+      "name": "Starter Kit",
+      "price": "499rb",
+      "description": "Mulai otomasi WhatsApp dengan paket lengkap",
+      "features": [
+        "Workflow bot siap pakai",
+        "Installer script otomatis",
+        "Video tutorial menit",
+        "eBook panduan lengkap",
+        "FAQ & troubleshooting"
+      ],
+      "popular": false,
+      "cta": "Beli Starter Kit"
+    },
+    {
+      "name": "Fast Start",
+      "price": "899rb",
+      "description": "Starter Kit + bantuan setup langsung",
+      "features": [
+        "Semua isi Starter Kit",
+        "Live install support",
+        "Setup assistance 1-on-1",
+        "Troubleshooting real-time",
+        "Garansi jalan 100%"
+      ],
+      "popular": true,
+      "popularLabel": "Paling Populer",
+      "cta": "Pilih Fast Start"
+    },
+    {
+      "name": "Custom Solution",
+      "price": "CONTACT",
+      "description": "Custom solution untuk kebutuhan khusus",
+      "features": [
+        "Custom workflow design",
+        "API integration",
+        "Personal training session",
+        "Minor adjustment 30 hari",
+        "Priority support"
+      ],
+      "popular": false,
+      "cta": "Konsultasi Enterprise"
+    }
+  ],
+  "guarantee": "Garansi sampai sistem jalan *ketentuan berlaku"
+}

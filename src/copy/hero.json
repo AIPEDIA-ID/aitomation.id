@@ -1,0 +1,36 @@
+{
+  "badge": {
+    "text": "Dipercaya 500+ Bisnis Indonesia"
+  },
+  "heading": {
+    "main": "STOP Balas Chat Manual!",
+    "subtitle": "Otomasi WhatsApp dengan AI"
+  },
+  "description": {
+    "primary": "100% Milik Sendiri • Tanpa Coding • Setup Cepat • Sekali Bayar",
+    "secondary": "Hemat jutaan rupiah dari biaya langganan SaaS bulanan"
+  },
+  "socialProof": {
+    "stats": [
+      {
+        "number": "500+",
+        "label": "Bisnis Aktif"
+      },
+      {
+        "number": "15 Menit",
+        "label": "Setup"
+      },
+      {
+        "number": "100%",
+        "label": "Milik Sendiri"
+      }
+    ]
+  },
+  "buttons": {
+    "primary": "MULAI SEKARANG",
+    "secondary": "Lihat Demo & Fitur →"
+  },
+  "urgency": {
+    "text": "⚠️ PROMO TERBATAS! Harga naik 50% mulai 1 Februari 2025"
+  }
+}
