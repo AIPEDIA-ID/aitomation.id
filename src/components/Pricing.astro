@@ -1,0 +1,133 @@
+---
+const packages = [
+  {
+    name: "Starter Kit",
+    price: "499rb",
+    description: "Mulai otomasi WhatsApp dengan paket lengkap",
+    features: [
+      "Workflow bot siap pakai",
+      "Installer script otomatis",
+      "Video tutorial  menit",
+      "eBook panduan lengkap",
+      "FAQ & troubleshooting"
+    ],
+    popular: false,
+    cta: "Beli Starter Kit"
+  },
+  {
+    name: "Fast Start",
+    price: "899rb",
+    description: "Starter Kit + bantuan setup langsung",
+    features: [
+      "Semua isi Starter Kit",
+      "Live install support",
+      "Setup assistance 1-on-1",
+      "Troubleshooting real-time",
+      "Garansi jalan 100%"
+    ],
+    popular: true,
+    cta: "Pilih Fast Start"
+  },
+  {
+    name: "Custom Solution",
+    price: "CONTACT",
+    description: "Custom solution untuk kebutuhan khusus",
+    features: [
+      "Custom workflow design",
+      "API integration",
+      "Personal training session",
+      "Minor adjustment 30 hari",
+      "Priority support"
+    ],
+    popular: false,
+    cta: "Konsultasi Enterprise"
+  }
+];
+---
+
+<section id="pricing" class="py-16 md:py-20 bg-gradient-to-b from-transparent to-white/50">
+  <div class="container mx-auto px-4 md:px-8">
+    <div class="max-w-5xl mx-auto">
+      <!-- Section Header -->
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center gap-2 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-2 mb-6">
+          <span class="text-sm font-medium text-yellow-700">🔥 PROMO TERBATAS</span>
+        </div>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Harga Spesial <span class="text-red-600">Berakhir 31 Januari!</span>
+        </h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-4">
+          <span class="font-semibold text-accent-600">100% Self-Hosted</span> • Kontrol Penuh • Hemat Jutaan dari SaaS
+        </p>
+        <div class="bg-red-50 border border-red-200 rounded-lg p-3 max-w-md mx-auto">
+          <p class="text-red-800 font-medium text-sm">
+            ⚠️ Harga naik 50% mulai 1 Februari 2025!
+          </p>
+        </div>
+      </div>
+
+      <!-- Main Packages Grid -->
+      <div class="grid lg:grid-cols-3 gap-6 mb-12">
+        {packages.map((pkg, index) => (
+          <div class={`relative bg-white/60 border rounded-lg p-6 transition-all hover:bg-white/80 hover:shadow-lg ${pkg.popular ? 'border-accent-500/50 ring-2 ring-accent-500/20' : 'border-white/20'}`}>
+            {pkg.popular && (
+              <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                <span class="bg-accent-500 text-white px-3 py-1 rounded-full text-sm font-medium">
+                  Paling Populer
+                </span>
+              </div>
+            )}
+            
+            <div class="text-center mb-6">
+              <h3 class="text-lg font-bold text-gray-900 mb-2">{pkg.name}</h3>
+              <div class="text-2xl font-bold text-accent-600 mb-2">Rp {pkg.price}</div>
+              <p class="text-gray-600 text-sm">{pkg.description}</p>
+            </div>
+
+            <ul class="space-y-3 mb-6">
+              {pkg.features.map(feature => (
+                <li class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-accent-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span class="text-gray-700 text-sm">{feature}</span>
+                </li>
+              ))}
+            </ul>
+
+            <button 
+              onclick={`handleCheckout('${pkg.name.toLowerCase().replace(' ', '-')}')`}
+              class={`w-full py-3 px-4 rounded-lg font-medium transition-colors ${pkg.popular 
+                ? 'bg-accent-500 hover:bg-accent-600 text-white border border-accent-600' 
+                : 'bg-white/80 hover:bg-white border border-accent-500/30 text-accent-600'}`}
+            >
+              {pkg.cta}
+            </button>
+          </div>
+        ))}
+      </div>
+
+      <!-- Trust Section -->
+      <div class="text-center">
+        <div class="inline-flex items-center gap-3 bg-white/60 border border-white/20 rounded-full px-4 py-2">
+          <svg class="w-4 h-4 text-accent-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+          </svg>
+          <span class="text-sm font-medium text-gray-700">Garansi uang kembali jika sistem tidak jalan</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+function handleCheckout(packageType) {
+  console.log(`Checkout for package: ${packageType}`);
+  
+  if (packageType === 'enterprise') {
+    alert('Silakan hubungi kami untuk konsultasi lebih lanjut mengenai paket ini.');
+  } else {
+    alert(`Anda akan diarahkan ke checkout Midtrans untuk paket ${packageType}. (Integrasi Midtrans akan ditambahkan di sini)`);
+  }
+}
+</script>
