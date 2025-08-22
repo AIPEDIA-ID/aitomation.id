@@ -2,12 +2,12 @@
   "brand": "AITOMATION.ID",
   "links": [
     {
-      "text": "Pricing",
-      "href": "#pricing"
+      "text": "Blog",
+      "href": "/blog"
     },
     {
-      "text": "FAQ",
-      "href": "/faq"
+      "text": "WhatsApp Automation",
+      "href": "/wa"
     }
   ],
   "cta": "Mulai Sekarang"

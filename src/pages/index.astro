@@ -1,39 +1,45 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 ---
 
 <Layout title="Aitomate.id - Build AI Agents & Automations" description="Platform untuk membangun AI agents dan automation untuk bisnis Indonesia. 100% milik sendiri, tanpa coding, setup cepat.">
+  <Navigation />
+  
   <!-- Hero Section -->
   <section class="relative overflow-hidden pt-32 pb-20 bg-gradient-to-br from-mint-50 via-cream-50 to-white">
-    <div class="container mx-auto px-4 md:px-8">
-      <div class="max-w-4xl mx-auto text-center">
-        <!-- Badge -->
-        <div class="inline-flex items-center gap-2 bg-accent-500/10 border border-accent-500/20 rounded-full px-4 py-2 mb-8">
-          <div class="w-2 h-2 bg-accent-500 rounded-full"></div>
-          <span class="text-sm font-medium text-accent-600">Dipercaya 500+ Bisnis Indonesia</span>
-        </div>
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center">
+          <!-- Badge -->
+          <div class="inline-flex items-center gap-2 bg-accent-500/10 border border-accent-500/20 rounded-full px-4 py-2 mb-8">
+            <div class="w-2 h-2 bg-accent-500 rounded-full"></div>
+            <span class="text-sm font-medium text-accent-600">Dipercaya 500+ Bisnis Indonesia</span>
+          </div>
 
-        <!-- Main Heading -->
-        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-          Build AI Agents & Automations<br/>
-          <span class="text-accent-600">That Actually Work</span><br/>
-          <span class="text-gray-700">For Your Business</span>
-        </h1>
+          <!-- Main Heading -->
+          <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+            Build AI Agents & Automations<br/>
+            <span class="text-accent-600">That Actually Work</span><br/>
+            <span class="text-gray-700">For Your Business</span>
+          </h1>
 
-        <!-- Subtitle -->
-        <p class="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
-          <span class="text-accent-600 font-semibold">100% Milik Sendiri</span> • Tanpa Coding • Setup Cepat • Sekali Bayar<br/>
-          <span class="text-gray-600">Hemat jutaan rupiah dari biaya langganan SaaS bulanan</span>
-        </p>
+          <!-- Subtitle -->
+          <p class="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
+            <span class="text-accent-600 font-semibold">100% Milik Sendiri</span> • Tanpa Coding • Setup Cepat • Sekali Bayar<br/>
+            <span class="text-gray-600">Hemat jutaan rupiah dari biaya langganan SaaS bulanan</span>
+          </p>
 
-        <!-- CTA Buttons -->
-        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <button class="bg-accent-500 hover:bg-accent-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors w-full sm:w-auto">
-            Start Building For Free
-          </button>
-          <button class="bg-white/60 border border-gray-300 hover:bg-white/80 text-gray-800 px-8 py-4 rounded-lg font-medium text-lg transition-colors w-full sm:w-auto">
-            Watch Demo
-          </button>
+          <!-- CTA Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+            <button class="bg-accent-500 hover:bg-accent-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors w-full sm:w-auto">
+              Start Building For Free
+            </button>
+            <button class="bg-white/60 border border-gray-300 hover:bg-white/80 text-gray-800 px-8 py-4 rounded-lg font-medium text-lg transition-colors w-full sm:w-auto">
+              Watch Demo
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -41,16 +47,17 @@ import Layout from '../layouts/Layout.astro';
 
   <!-- What do you want to automate? -->
   <section class="py-16 bg-white">
-    <div class="container mx-auto px-4 md:px-8">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          What do you want to automate?
-        </h2>
-        <p class="text-lg text-gray-600">Pilih jenis automation yang ingin Anda bangun</p>
-      </div>
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            What do you want to automate?
+          </h2>
+          <p class="text-lg text-gray-600">Pilih jenis automation yang ingin Anda bangun</p>
+        </div>
 
-      <!-- Automation Categories -->
-      <div class="grid md:grid-cols-3 gap-6 mb-16">
+        <!-- Automation Categories -->
+        <div class="grid md:grid-cols-3 gap-6 mb-16">
         <div class="bg-gradient-to-br from-mint-50 to-white border border-mint-100 rounded-xl p-6 hover:shadow-lg transition-shadow">
           <div class="w-12 h-12 bg-accent-500 rounded-lg flex items-center justify-center mb-4">
             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -122,16 +129,17 @@ import Layout from '../layouts/Layout.astro';
 
   <!-- Learn to Build AI Agents & Automations -->
   <section class="py-16 bg-gradient-to-br from-mint-50 via-cream-50 to-white">
-    <div class="container mx-auto px-4 md:px-8">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Learn to Build AI Agents & Automations
-        </h2>
-        <p class="text-lg text-gray-600">Tutorial lengkap dari setup hingga advanced automation</p>
-      </div>
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Learn to Build AI Agents & Automations
+          </h2>
+          <p class="text-lg text-gray-600">Tutorial lengkap dari setup hingga advanced automation</p>
+        </div>
 
-      <!-- Video Grid -->
-      <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Video Grid -->
+        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
         <!-- Video Cards with General Automation Topics -->
         <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow border border-gray-100">
           <div class="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 relative">
@@ -313,18 +321,21 @@ import Layout from '../layouts/Layout.astro';
 
   <!-- CTA Section -->
   <section class="py-20 bg-gradient-to-r from-accent-500 to-accent-600">
-    <div class="container mx-auto px-4 md:px-8 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
-        Siap Memulai Automation Journey Anda?
-      </h2>
-      <p class="text-xl text-accent-100 mb-8 max-w-2xl mx-auto">
-        Bergabung dengan 500+ bisnis Indonesia yang sudah mengotomasi operasi mereka
-      </p>
-      <button class="bg-white text-accent-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-50 transition-colors">
-        Start Building For Free
-      </button>
+    <div class="container mx-auto px-4 text-center">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+          Siap Memulai Automation Journey Anda?
+        </h2>
+        <p class="text-xl text-accent-100 mb-8 max-w-2xl mx-auto">
+          Bergabung dengan 500+ bisnis Indonesia yang sudah mengotomasi operasi mereka
+        </p>
+        <button class="bg-white text-accent-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-50 transition-colors">
+          Start Building For Free
+        </button>
+      </div>
     </div>
   </section>
+  <Footer />
 </Layout>
 
 <script>
