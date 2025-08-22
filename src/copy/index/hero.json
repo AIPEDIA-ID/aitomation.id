@@ -1,0 +1,34 @@
+{
+  "badge": {
+    "text": "Dipercaya 500+ Bisnis Indonesia"
+  },
+  "heading": {
+    "main": "Build AI Agents & Automations",
+    "highlight": "That Actually Work",
+    "suffix": "For Your Business"
+  },
+  "description": {
+    "primary": "100% Milik Sendiri • Tanpa Coding • Setup Cepat • Sekali Bayar",
+    "secondary": "Hemat jutaan rupiah dari biaya langganan SaaS bulanan"
+  },
+  "buttons": {
+    "primary": "Start Building For Free",
+    "secondary": "Watch Demo"
+  },
+  "socialProof": {
+    "stats": [
+      {
+        "number": "500+",
+        "label": "Bisnis Terpercaya"
+      },
+      {
+        "number": "24/7",
+        "label": "Otomasi Aktif"
+      },
+      {
+        "number": "98%",
+        "label": "Success Rate"
+      }
+    ]
+  }
+}

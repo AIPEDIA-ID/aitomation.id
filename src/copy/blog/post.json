@@ -1,0 +1,26 @@
+{
+  "backLink": "Kembali ke Blog",
+  "cta": {
+    "heading": "Siap Mengimplementasikan Tips Ini?",
+    "description": "Dapatkan sistem otomasi WhatsApp lengkap dengan AITOMATION.ID",
+    "buttons": {
+      "primary": "Lihat Paket",
+      "secondary": "Baca Artikel Lain"
+    }
+  },
+  "relatedArticles": {
+    "heading": "Artikel Terkait",
+    "articles": [
+      {
+        "title": "Mengapa Self-Hosted Lebih Baik dari SaaS",
+        "category": "Insight",
+        "slug": "self-hosted-vs-saas-bisnis-indonesia"
+      },
+      {
+        "title": "Setup WhatsApp Business API dalam 15 Menit",
+        "category": "Guide",
+        "slug": "setup-whatsapp-business-api-15-menit"
+      }
+    ]
+  }
+}

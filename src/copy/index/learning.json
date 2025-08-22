@@ -1,0 +1,57 @@
+{
+  "heading": {
+    "main": "Learn to Build AI Agents & Automations",
+    "description": "Tutorial lengkap dari setup hingga advanced automation"
+  },
+  "videos": [
+    {
+      "title": "Getting Started with AI Automation",
+      "category": "BASICS",
+      "duration": "12:45",
+      "views": "25K views"
+    },
+    {
+      "title": "Building Your First AI Customer Service Agent",
+      "category": "AI AGENT",
+      "duration": "18:32",
+      "views": "32K views"
+    },
+    {
+      "title": "Email Marketing Automation Setup",
+      "category": "EMAIL",
+      "duration": "15:20",
+      "views": "18K views"
+    },
+    {
+      "title": "Social Media Automation with AI",
+      "category": "SOCIAL",
+      "duration": "22:15",
+      "views": "28K views"
+    },
+    {
+      "title": "Data Collection & Processing Automation",
+      "category": "DATA",
+      "duration": "9:45",
+      "views": "15K views"
+    },
+    {
+      "title": "Building Multi-Platform Chatbots",
+      "category": "CHATBOT",
+      "duration": "18:30",
+      "views": "22K views"
+    },
+    {
+      "title": "Workflow Automation for Business Operations",
+      "category": "WORKFLOW",
+      "duration": "14:12",
+      "views": "19K views"
+    },
+    {
+      "title": "Advanced AI Integration Techniques",
+      "category": "ADVANCED",
+      "duration": "26:45",
+      "views": "12K views"
+    }
+  ],
+  "loadMore": "Load More Videos"
+}

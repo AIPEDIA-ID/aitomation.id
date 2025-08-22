@@ -1,0 +1,28 @@
+{
+  "heading": {
+    "main": "Mengapa Pilih Automation Kit Kami?",
+    "description": "Solusi automation yang terbukti, mudah diimplementasi, dan hemat biaya"
+  },
+  "benefits": [
+    {
+      "title": "Deploy Cepat",
+      "description": "Setup dalam hitungan jam, bukan minggu",
+      "icon": "lightning"
+    },
+    {
+      "title": "100% Milik Sendiri",
+      "description": "No monthly fees, full control atas data",
+      "icon": "lock"
+    },
+    {
+      "title": "Fully Customizable",
+      "description": "Modify sesuai kebutuhan bisnis unik Anda",
+      "icon": "settings"
+    },
+    {
+      "title": "Expert Support",
+      "description": "Dukungan dari tim automation specialist",
+      "icon": "support"
+    }
+  ]
+}

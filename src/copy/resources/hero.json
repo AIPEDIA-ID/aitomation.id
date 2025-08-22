@@ -1,0 +1,27 @@
+{
+  "badge": {
+    "text": "500+ Bisnis Sudah Menggunakan"
+  },
+  "heading": {
+    "main": "Katalog Produk",
+    "highlight": "Automation Kit"
+  },
+  "description": {
+    "primary": "Ready-to-Deploy Solutions • Kit Only atau Kit + Setup",
+    "secondary": "Pilih paket sesuai kebutuhan dan budget Anda"
+  },
+  "stats": [
+    {
+      "number": "15+",
+      "label": "Produk Tersedia"
+    },
+    {
+      "number": "24 Jam",
+      "label": "Delivery Time"
+    },
+    {
+      "number": "98%",
+      "label": "Success Rate"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "heading": {
+    "main": "What do you want to automate?",
+    "description": "Pilih jenis automation yang ingin Anda bangun"
+  },
+  "categories": [
+    {
+      "title": "Customer Communication",
+      "description": "WhatsApp, Telegram, Email, SMS automation untuk customer service",
+      "icon": "message",
+      "cta": "Build Agent →"
+    },
+    {
+      "title": "Sales & Marketing",
+      "description": "Lead generation, nurturing, follow-up, dan closing automation",
+      "icon": "chart",
+      "cta": "Setup Sales →"
+    },
+    {
+      "title": "Business Operations",
+      "description": "Inventory, invoicing, reporting, dan workflow automation",
+      "icon": "operations",
+      "cta": "Automate Ops →"
+    },
+    {
+      "title": "Data & Analytics",
+      "description": "Data collection, processing, reporting, dan insights automation",
+      "icon": "analytics",
+      "cta": "Build Analytics →"
+    },
+    {
+      "title": "Social Media",
+      "description": "Content posting, engagement, monitoring automation",
+      "icon": "social",
+      "cta": "Automate Social →"
+    },
+    {
+      "title": "AI Assistants",
+      "description": "Custom AI agents untuk berbagai kebutuhan bisnis spesifik",
+      "icon": "ai",
+      "cta": "Create AI →"
+    }
+  ]
+}

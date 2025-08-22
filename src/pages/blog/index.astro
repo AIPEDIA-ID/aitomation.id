@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import Navigation from '../../components/common/Navigation.astro';
 import Footer from '../../components/common/Footer.astro';
 import { getCollection } from 'astro:content';
+import blogData from '../../copy/blog/index.json';
 
 const blogPosts = await getCollection('blog');
 const sortedPosts = blogPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());

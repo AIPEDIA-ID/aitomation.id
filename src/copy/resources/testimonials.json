@@ -1,0 +1,26 @@
+{
+  "heading": {
+    "main": "Apa Kata Mereka yang Sudah Menggunakan?",
+    "description": "Testimoni dari 500+ bisnis Indonesia yang sudah menggunakan produk kami"
+  },
+  "testimonials": [
+    {
+      "name": "Budi Santoso",
+      "company": "TechStart Indonesia",
+      "text": "WhatsApp automation kit dari Aitomate.id menghemat 40+ jam per minggu untuk tim customer service kami. ROI tercapai dalam 2 bulan!",
+      "rating": 5
+    },
+    {
+      "name": "Sarah Wijaya",
+      "company": "E-commerce Nusantara",
+      "text": "Lead generation system mereka meningkatkan qualified leads kami 300% dalam 3 bulan pertama. Investasi terbaik untuk bisnis!",
+      "rating": 5
+    },
+    {
+      "name": "Ahmad Rahman",
+      "company": "Manufacturing Co.",
+      "text": "Inventory management system dengan AI forecasting membantu kami reduce stockout 85% dan optimize cash flow.",
+      "rating": 5
+    }
+  ]
+}
