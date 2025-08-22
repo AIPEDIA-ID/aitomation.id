@@ -16,7 +16,7 @@ const { categories, activeCategory } = Astro.props;
 <div class="mb-8">
   <div class="flex flex-wrap gap-3 justify-center">
     <button 
-      class={`px-6 py-3 rounded-full font-medium text-sm transition-colors border ${
+      class={`px-6 py-3 rounded-md font-medium text-sm transition-colors border ${
         activeCategory === 'all' 
           ? 'bg-accent-500 text-white border-accent-500' 
           : 'bg-white text-gray-600 border-gray-300 hover:border-accent-300 hover:text-accent-600'
@@ -28,7 +28,7 @@ const { categories, activeCategory } = Astro.props;
     
     {categories.map((category) => (
       <button 
-        class={`px-6 py-3 rounded-full font-medium text-sm transition-colors border ${
+        class={`px-6 py-3 rounded-md font-medium text-sm transition-colors border ${
           activeCategory === category.id 
             ? 'bg-accent-500 text-white border-accent-500' 
             : 'bg-white text-gray-600 border-gray-300 hover:border-accent-300 hover:text-accent-600'
@@ -42,32 +42,54 @@ const { categories, activeCategory } = Astro.props;
 </div>
 
 <script>
-  // Category filter functionality
+  // Enhanced category filter functionality
   document.addEventListener('DOMContentLoaded', function() {
     const filterButtons = document.querySelectorAll('[data-category]');
     const productCards = document.querySelectorAll('[data-product-category]');
+    const emptyState = document.getElementById('empty-state');
     
-    filterButtons.forEach(button => {
-      button.addEventListener('click', function() {
+    function updateFilter(selectedCategory: string): void {
+      let visibleCount = 0;
+      
+      // Filter products
+      productCards.forEach((card: Element) => {
+        const productCategory = card.getAttribute('data-product-category');
+        const shouldShow = selectedCategory === 'all' || productCategory === selectedCategory;
+        
+        if (shouldShow) {
+          (card as HTMLElement).style.display = 'block';
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          (card as HTMLElement).style.display = 'none';
+          card.classList.add('hidden');
+        }
+      });
+      
+      // Show/hide empty state
+      if (visibleCount === 0) {
+        emptyState?.classList.remove('hidden');
+      } else {
+        emptyState?.classList.add('hidden');
+      }
+    }
+    
+    filterButtons.forEach((button: Element) => {
+      button.addEventListener('click', function(this: HTMLElement) {
         const category = this.getAttribute('data-category');
         
         // Update active button
-        filterButtons.forEach(btn => {
+        filterButtons.forEach((btn: Element) => {
           btn.classList.remove('bg-accent-500', 'text-white', 'border-accent-500');
           btn.classList.add('bg-white', 'text-gray-600', 'border-gray-300');
         });
         this.classList.remove('bg-white', 'text-gray-600', 'border-gray-300');
         this.classList.add('bg-accent-500', 'text-white', 'border-accent-500');
         
-        // Filter products
-        productCards.forEach(card => {
-          const productCategory = card.getAttribute('data-product-category');
-          if (category === 'all' || productCategory === category) {
-            card.style.display = 'block';
-          } else {
-            card.style.display = 'none';
-          }
-        });
+        // Apply filter
+        if (category) {
+          updateFilter(category);
+        }
       });
     });
   });
