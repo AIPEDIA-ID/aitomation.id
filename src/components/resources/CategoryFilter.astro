@@ -1,0 +1,74 @@
+---
+export interface Category {
+  id: string;
+  name: string;
+  description: string;
+}
+
+export interface Props {
+  categories: Category[];
+  activeCategory: string;
+}
+
+const { categories, activeCategory } = Astro.props;
+---
+
+<div class="mb-8">
+  <div class="flex flex-wrap gap-3 justify-center">
+    <button 
+      class={`px-6 py-3 rounded-full font-medium text-sm transition-colors border ${
+        activeCategory === 'all' 
+          ? 'bg-accent-500 text-white border-accent-500' 
+          : 'bg-white text-gray-600 border-gray-300 hover:border-accent-300 hover:text-accent-600'
+      }`}
+      data-category="all"
+    >
+      Semua Produk
+    </button>
+    
+    {categories.map((category) => (
+      <button 
+        class={`px-6 py-3 rounded-full font-medium text-sm transition-colors border ${
+          activeCategory === category.id 
+            ? 'bg-accent-500 text-white border-accent-500' 
+            : 'bg-white text-gray-600 border-gray-300 hover:border-accent-300 hover:text-accent-600'
+        }`}
+        data-category={category.id}
+      >
+        {category.name}
+      </button>
+    ))}
+  </div>
+</div>
+
+<script>
+  // Category filter functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('[data-category]');
+    const productCards = document.querySelectorAll('[data-product-category]');
+    
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const category = this.getAttribute('data-category');
+        
+        // Update active button
+        filterButtons.forEach(btn => {
+          btn.classList.remove('bg-accent-500', 'text-white', 'border-accent-500');
+          btn.classList.add('bg-white', 'text-gray-600', 'border-gray-300');
+        });
+        this.classList.remove('bg-white', 'text-gray-600', 'border-gray-300');
+        this.classList.add('bg-accent-500', 'text-white', 'border-accent-500');
+        
+        // Filter products
+        productCards.forEach(card => {
+          const productCategory = card.getAttribute('data-product-category');
+          if (category === 'all' || productCategory === category) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+</script>

@@ -2,6 +2,10 @@
   "brand": "AITOMATION.ID",
   "links": [
     {
+      "text": "Resources",
+      "href": "/resources"
+    },
+    {
       "text": "Blog",
       "href": "/blog"
     },

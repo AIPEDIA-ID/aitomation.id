@@ -1,0 +1,376 @@
+{
+  "categories": [
+    {
+      "id": "communication",
+      "name": "Communication Automation",
+      "description": "Otomasi untuk komunikasi pelanggan dan internal",
+      "products": [
+        {
+          "id": "whatsapp-automation",
+          "title": "WhatsApp Business Automation",
+          "description": "Sistem otomasi WhatsApp lengkap untuk customer service, marketing, dan penjualan",
+          "features": [
+            "Auto-reply 24/7",
+            "Chatbot AI terintegrasi",
+            "Broadcast management",
+            "Lead qualification",
+            "Order processing",
+            "Customer segmentation"
+          ],
+          "image": "/images/products/whatsapp-automation.jpg",
+          "packages": [
+            {
+              "type": "kit",
+              "name": "WhatsApp Kit",
+              "price": "Rp 1.500.000",
+              "originalPrice": "Rp 3.000.000",
+              "description": "Script & dokumentasi lengkap untuk setup mandiri",
+              "includes": [
+                "Source code lengkap",
+                "Dokumentasi setup 50+ halaman",
+                "Video tutorial 3 jam",
+                "Template pesan 100+",
+                "Database schema",
+                "Lifetime updates"
+              ]
+            },
+            {
+              "type": "kit_plus_setup",
+              "name": "WhatsApp Kit + Setup",
+              "price": "Rp 3.000.000",
+              "originalPrice": "Rp 6.000.000",
+              "description": "Kit lengkap + instalasi & konfigurasi oleh tim ahli",
+              "includes": [
+                "Semua fitur WhatsApp Kit",
+                "Setup & instalasi lengkap",
+                "Konfigurasi server",
+                "Training 2 jam via video call",
+                "Support 30 hari",
+                "Custom branding"
+              ]
+            }
+          ],
+          "popular": true
+        },
+        {
+          "id": "telegram-bot",
+          "title": "Telegram Bot Automation",
+          "description": "Bot Telegram untuk customer service dan broadcast marketing",
+          "features": [
+            "Command-based interactions",
+            "File sharing automation",
+            "Group management",
+            "Inline keyboards",
+            "Payment integration",
+            "Analytics dashboard"
+          ],
+          "image": "/images/products/telegram-bot.jpg",
+          "packages": [
+            {
+              "type": "kit",
+              "name": "Telegram Kit",
+              "price": "Rp 800.000",
+              "originalPrice": "Rp 1.600.000",
+              "description": "Bot framework dan dokumentasi lengkap",
+              "includes": [
+                "Bot source code",
+                "Setup documentation",
+                "Command templates",
+                "Webhook configuration",
+                "Database design",
+                "Updates selama 1 tahun"
+              ]
+            },
+            {
+              "type": "kit_plus_setup",
+              "name": "Telegram Kit + Setup",
+              "price": "Rp 1.800.000",
+              "originalPrice": "Rp 3.500.000",
+              "description": "Kit + deployment dan konfigurasi professional",
+              "includes": [
+                "Semua fitur Telegram Kit",
+                "Bot deployment",
+                "Server configuration",
+                "Custom commands setup",
+                "Training session 1 jam",
+                "Support 15 hari"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sales-marketing",
+      "name": "Sales & Marketing Automation",
+      "description": "Otomasi untuk lead generation, nurturing, dan closing",
+      "products": [
+        {
+          "id": "lead-generation",
+          "title": "AI Lead Generation System",
+          "description": "Sistem otomatis untuk mengumpulkan dan mengkualifikasi leads dari berbagai channel",
+          "features": [
+            "Multi-channel lead capture",
+            "AI lead scoring",
+            "Automated follow-up",
+            "CRM integration",
+            "Lead nurturing campaigns",
+            "Conversion tracking"
+          ],
+          "image": "/images/products/lead-generation.jpg",
+          "packages": [
+            {
+              "type": "kit",
+              "name": "Lead Gen Kit",
+              "price": "Rp 2.000.000",
+              "originalPrice": "Rp 4.000.000",
+              "description": "Sistem lead generation dengan AI scoring",
+              "includes": [
+                "Lead capture forms",
+                "AI scoring algorithm",
+                "Email sequences",
+                "Landing page templates",
+                "Analytics dashboard",
+                "Integration guides"
+              ]
+            },
+            {
+              "type": "kit_plus_setup",
+              "name": "Lead Gen Kit + Setup",
+              "price": "Rp 4.500.000",
+              "originalPrice": "Rp 9.000.000",
+              "description": "Kit + implementasi dan optimisasi campaign",
+              "includes": [
+                "Semua fitur Lead Gen Kit",
+                "Campaign setup",
+                "Landing page deployment",
+                "A/B testing configuration",
+                "Training 3 jam",
+                "Support 45 hari"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "email-marketing",
+          "title": "Email Marketing Automation",
+          "description": "Platform email marketing dengan AI personalization dan automated sequences",
+          "features": [
+            "Drag & drop editor",
+            "AI content generation",
+            "Behavioral triggers",
+            "Segmentation engine",
+            "A/B testing",
+            "Advanced analytics"
+          ],
+          "image": "/images/products/email-marketing.jpg",
+          "packages": [
+            {
+              "type": "kit",
+              "name": "Email Kit",
+              "price": "Rp 1.200.000",
+              "originalPrice": "Rp 2.400.000",
+              "description": "Email marketing platform dengan automation",
+              "includes": [
+                "Email builder platform",
+                "Template library 50+",
+                "Automation workflows",
+                "Subscriber management",
+                "Analytics dashboard",
+                "API documentation"
+              ]
+            },
+            {
+              "type": "kit_plus_setup",
+              "name": "Email Kit + Setup",
+              "price": "Rp 2.700.000",
+              "originalPrice": "Rp 5.400.000",
+              "description": "Kit + setup campaign dan integrasi",
+              "includes": [
+                "Semua fitur Email Kit",
+                "Platform deployment",
+                "Campaign creation",
+                "List import & cleanup",
+                "Training 2 jam",
+                "Support 30 hari"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business-operations",
+      "name": "Business Operations",
+      "description": "Otomasi untuk operasional bisnis dan workflow internal",
+      "products": [
+        {
+          "id": "inventory-management",
+          "title": "Smart Inventory Management",
+          "description": "Sistem manajemen inventory otomatis dengan AI forecasting",
+          "features": [
+            "Real-time stock tracking",
+            "AI demand forecasting",
+            "Auto reorder points",
+            "Supplier integration",
+            "Multi-location support",
+            "Cost optimization"
+          ],
+          "image": "/images/products/inventory-management.jpg",
+          "packages": [
+            {
+              "type": "kit",
+              "name": "Inventory Kit",
+              "price": "Rp 2.500.000",
+              "originalPrice": "Rp 5.000.000",
+              "description": "Sistem inventory management dengan AI forecasting",
+              "includes": [
+                "Inventory tracking system",
+                "Forecasting algorithms",
+                "Supplier portal",
+                "Mobile app",
+                "Report templates",
+                "Database schema"
+              ]
+            },
+            {
+              "type": "kit_plus_setup",
+              "name": "Inventory Kit + Setup",
+              "price": "Rp 5.500.000",
+              "originalPrice": "Rp 11.000.000",
+              "description": "Kit + implementasi dan training lengkap",
+              "includes": [
+                "Semua fitur Inventory Kit",
+                "System deployment",
+                "Data migration",
+                "Staff training 4 jam",
+                "Custom workflows",
+                "Support 60 hari"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "invoicing-system",
+          "title": "Automated Invoicing System",
+          "description": "Sistem fakturing otomatis dengan payment gateway dan reminder",
+          "features": [
+            "Automated invoice generation",
+            "Payment gateway integration",
+            "Recurring billing",
+            "Payment reminders",
+            "Tax calculations",
+            "Financial reporting"
+          ],
+          "image": "/images/products/invoicing-system.jpg",
+          "packages": [
+            {
+              "type": "kit",
+              "name": "Invoice Kit",
+              "price": "Rp 1.000.000",
+              "originalPrice": "Rp 2.000.000",
+              "description": "Sistem fakturing otomatis lengkap",
+              "includes": [
+                "Invoice generator",
+                "Payment processing",
+                "Customer portal",
+                "Template customizer",
+                "Report generator",
+                "API integrations"
+              ]
+            },
+            {
+              "type": "kit_plus_setup",
+              "name": "Invoice Kit + Setup",
+              "price": "Rp 2.200.000",
+              "originalPrice": "Rp 4.400.000",
+              "description": "Kit + setup dan konfigurasi payment gateway",
+              "includes": [
+                "Semua fitur Invoice Kit",
+                "Payment gateway setup",
+                "Custom templates",
+                "Client data import",
+                "Training 1.5 jam",
+                "Support 30 hari"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-assistants",
+      "name": "AI Assistants",
+      "description": "AI agents untuk berbagai kebutuhan bisnis spesifik",
+      "products": [
+        {
+          "id": "customer-service-ai",
+          "title": "AI Customer Service Agent",
+          "description": "AI agent untuk customer service 24/7 dengan natural language processing",
+          "features": [
+            "Natural language understanding",
+            "Multi-language support",
+            "Ticket classification",
+            "Sentiment analysis",
+            "Knowledge base integration",
+            "Human handoff"
+          ],
+          "image": "/images/products/customer-service-ai.jpg",
+          "packages": [
+            {
+              "type": "kit",
+              "name": "CS AI Kit",
+              "price": "Rp 3.000.000",
+              "originalPrice": "Rp 6.000.000",
+              "description": "AI customer service dengan NLP advanced",
+              "includes": [
+                "AI model pre-trained",
+                "Training interface",
+                "Chat widget",
+                "Knowledge base system",
+                "Analytics dashboard",
+                "Model fine-tuning guide"
+              ]
+            },
+            {
+              "type": "kit_plus_setup",
+              "name": "CS AI Kit + Setup",
+              "price": "Rp 6.500.000",
+              "originalPrice": "Rp 13.000.000",
+              "description": "Kit + training AI model dengan data bisnis Anda",
+              "includes": [
+                "Semua fitur CS AI Kit",
+                "Custom model training",
+                "Data preprocessing",
+                "Integration setup",
+                "Team training 4 jam",
+                "Support 90 hari"
+              ]
+            }
+          ],
+          "popular": true
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Budi Santoso",
+      "company": "TechStart Indonesia",
+      "text": "WhatsApp automation kit dari Aitomate.id menghemat 40+ jam per minggu untuk tim customer service kami. ROI tercapai dalam 2 bulan!",
+      "rating": 5
+    },
+    {
+      "name": "Sarah Wijaya",
+      "company": "E-commerce Nusantara",
+      "text": "Lead generation system mereka meningkatkan qualified leads kami 300% dalam 3 bulan pertama. Investasi terbaik untuk bisnis!",
+      "rating": 5
+    },
+    {
+      "name": "Ahmad Rahman",
+      "company": "Manufacturing Co.",
+      "text": "Inventory management system dengan AI forecasting membantu kami reduce stockout 85% dan optimize cash flow.",
+      "rating": 5
+    }
+  ]
+}
